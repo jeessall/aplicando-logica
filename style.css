@@ -1,0 +1,130 @@
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+    vertical-align:baseline;
+}
+
+:root {
+ --color-white: #ffffff;
+ --color-blue: #0a0464;
+ --color-secondary: #57a8df;
+ --color-red: #b30808;
+ --background: #c1e1e9;
+ --color-gray: #c0c0c0;
+ --color-yellow: #fff6a6;
+}
+
+body {
+    background-color: var(--background)
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin-top: 115px;
+    margin-bottom: 45px;
+    padding: 30px;
+}
+
+.title-one {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--color-blue);
+}
+
+h2 {
+    margin-top: 25px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--color-blue);
+}
+
+p{  margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--color-blue);
+
+}
+
+.result {
+   margin-top: 15px;
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 1rem;
+   color: var(--color-red);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--color-blue);
+}
+
+input {
+    width: 80px;
+    height: 25px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-style: none;
+    border: 2px solid var(--color-white);
+    border-radius: 5px;
+}
+
+button {
+    width: 135px;
+    height: 35px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora por m2 para tintas</title>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <div class="title-one">
+                <h1>Calcule quantas latas de tinta vai precisar para sua construção</h1>
+            </div>
+            <div class="div-form">
+                <form action="">
+                    <p>Digite a metragem da área a ser pintada</p>
+                    <input type="number" name="metro" id="metro" placeholder="Área" required>
+                    <p>Digite quantos metros quadrados a tinta cobre</p>
+                    <input type="number" name="m2" id="m2" placeholder="m2" required>
+                    <button  onclick="calcular();" id="calc">Calcular</button>
+                    <p class="result">Resultado: <span id="result"></span></p>
+                    <h2>Calculo exato!</h2>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
